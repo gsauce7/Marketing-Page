@@ -87,6 +87,7 @@ nav a:hover {
     color: black;
 }
 
+
 .section1 {
     display: flex;
     margin: 2rem;
@@ -121,6 +122,7 @@ nav a:hover {
     height: 30rem;
     width: 30rem;
     padding: 2rem;
+    font-size: 2rem;
 }
 
 .intro {
@@ -210,6 +212,7 @@ form {
     padding-top: 1rem;
     padding-right: 0;
     padding-bottom: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     margin-right: 0;
     background-color: black;
@@ -236,6 +239,11 @@ form {
 
 .myProjects a:visited {
     color: white;
+}
+
+.about {
+    margin-top: 1rem;
+    font-size: 2rem;
 }
 
 .aboutMe {
@@ -269,9 +277,7 @@ form {
     
     section.section1 {
         flex-direction: column;
-        margin-top: 2rem;
         
-    
     }
 
     section.section1 img {
@@ -288,6 +294,7 @@ form {
         align-items: center;
         margin-left: 0;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
     section.section1 div.intro div.aboutMe {
         text-align: justify;
@@ -311,13 +318,15 @@ form {
         text-align: center;
         font-size: 2rem;
         margin: 0;
-        padding: .7rem;;
+        padding: .7rem;
 
     }
     
     .section2 div img {
-        object-fit: cover;
-        width: 100%;
+        object-fit: fill;
+       /* width: 100%; */
+        width: 300px;
+        height: 300px;
         padding: 0;
         margin: 0;
     }
@@ -337,7 +346,18 @@ form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 22rem;
+        height: 15rem;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0;
+        background-color: white;
+    }
+
+    div.wrapper header.main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 19rem;
         width: 80%;
         margin: 0 auto;
         padding: 0;
@@ -420,11 +440,12 @@ form {
     .section2 > div {
         
         width: 46.5%;
-        height: 36vh;
+        height: 46vh;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 0;
-        padding: .7rem;;
+        padding: .3rem;
+    
 
     }
     
@@ -433,7 +454,7 @@ form {
         width: 100%;
         padding: 0;
         margin: 0;
-    }
+    } 
     
     footer {
     height: 10rem;
