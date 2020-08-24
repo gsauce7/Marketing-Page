@@ -87,6 +87,7 @@ nav a:hover {
     color: black;
 }
 
+
 .section1 {
     display: flex;
     margin: 2rem;
@@ -210,6 +211,7 @@ form {
     padding-top: 1rem;
     padding-right: 0;
     padding-bottom: 1rem;
+    margin-top: 3rem;
     margin-bottom: 1rem;
     margin-right: 0;
     background-color: black;
@@ -288,6 +290,7 @@ form {
         align-items: center;
         margin-left: 0;
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
     section.section1 div.intro div.aboutMe {
         text-align: justify;
@@ -316,8 +319,10 @@ form {
     }
     
     .section2 div img {
-        object-fit: cover;
-        width: 100%;
+        object-fit: fill;
+       /* width: 100%; */
+        width: 300px;
+        height: 300px;
         padding: 0;
         margin: 0;
     }
