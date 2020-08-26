@@ -213,7 +213,7 @@ form {
     padding-right: 0;
     padding-bottom: 1rem;
     margin-top: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-right: 0;
     background-color: black;
     color: white;
@@ -240,6 +240,38 @@ form {
 .myProjects a:visited {
     color: white;
 }
+.login {
+    margin-bottom: 2rem;
+}
+
+.signup {
+    margin-bottom: 2rem;
+}
+.login a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: 2rem;
+    padding: .5rem;
+}
+.signup a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+.login a:visited {
+    text-decoration: none;
+}
+
+.signup a:visited {
+    text-decoration: none;
+}
+
 
 .about {
     margin-top: 1rem;
@@ -267,7 +299,7 @@ form {
 
 /*** MEDIA QUERIES ***/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     header {
         
     }
