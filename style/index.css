@@ -98,14 +98,7 @@ nav a:hover {
     flex-direction: column;
 }
 
-#projectsSection1 img {
-    width: 5%;
-}
-#projectsSection1 iframe {
-    width: 90%;
-    height: 90vh;
-    border: 1rem dashed green;
-}
+
 .section2 {
     display: flex;
     flex-wrap: wrap;
@@ -204,16 +197,12 @@ footer > div {
 
 }
 
-form {
-    margin: .5rem;
-}
-
 .myProjects {
     padding-top: 1rem;
     padding-right: 0;
     padding-bottom: 1rem;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     margin-right: 0;
     background-color: black;
     color: white;
@@ -241,11 +230,11 @@ form {
     color: white;
 }
 .login {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .signup {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .login a {
     text-decoration: none;
@@ -253,7 +242,7 @@ form {
     font-weight: bold;
     background-color: black;
     font-size: 2rem;
-    padding: .5rem;
+    padding: 1rem;
 }
 .signup a {
     text-decoration: none;
@@ -261,7 +250,7 @@ form {
     font-weight: bold;
     background-color: black;
     font-size: 2rem;
-    padding: .5rem;
+    padding: 1rem;
 }
 
 .login a:visited {
@@ -378,11 +367,11 @@ form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 15rem;
-        width: 80%;
+        height: 19rem;
+        width: 92%;
         margin: 0 auto;
         padding: 0;
-        background-color: white;
+        background-color: lightgray;
     }
 
     div.wrapper header.main {
@@ -390,10 +379,10 @@ form {
         flex-direction: column;
         align-items: center;
         height: 19rem;
-        width: 80%;
+        width: 92%;
         margin: 0 auto;
         padding: 0;
-        background-color: white;
+        background-color: lightgray;
     }
 
     div.wrapper header .name {
